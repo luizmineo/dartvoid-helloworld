@@ -8,7 +8,7 @@ var logger = new Logger("hello_world");
 @app.Route("/hello")
 helloWorld(@app.QueryParam() String name) {
 
-  if (name != null) {
+  if (name != null && !name.trim().isEmpty) {
     logger.info("Saying hello to $name");
     return "Hello $name";
   } else {
