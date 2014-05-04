@@ -1,12 +1,13 @@
-application: Hello World Vane
+application: Hello World Bloodless
 version: 1
 deploy: true
 pub: true
 dart2js: true 
+framework: bloodless
 
 handlers:
 - url: /hello
-  handler: hello_world.dart:HelloWorld
+  script: server.dart
 
 # Static content, will be served by your app's Nginx instance 
 - url: /
