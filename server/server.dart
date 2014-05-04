@@ -1,3 +1,5 @@
+import 'dart:io';
+
 import 'package:bloodless/server.dart' as app;
 import 'package:logging/logging.dart';
 
@@ -19,6 +21,9 @@ helloWorld(@app.QueryParam() String name) {
 main() {
 
   app.setupConsoleLog();
-  app.start(port: 80);
+
+  var portEnv = Platform.environment['PORT'];
+
+  app.start(port: portEnv != null ? portEnv : 8080);
 
 }
