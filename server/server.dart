@@ -24,6 +24,6 @@ main() {
 
   var portEnv = Platform.environment['PORT'];
 
-  app.start(port: portEnv != null ? portEnv : 8080);
+  app.start(port: portEnv != null ? portEnv : 8080, staticDir: null);
 
 }
