@@ -19,6 +19,6 @@ helloWorld(@app.QueryParam() String name) {
 main() {
 
   app.setupConsoleLog();
-  app.start();
+  app.start(port: 80);
 
 }
