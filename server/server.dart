@@ -1,6 +1,6 @@
 import 'dart:io';
 
-import 'package:bloodless/server.dart' as app;
+import 'package:redstone/server.dart' as app;
 import 'package:logging/logging.dart';
 
 var logger = new Logger("hello_world");

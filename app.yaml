@@ -3,7 +3,7 @@ version: 1
 deploy: true
 pub: true
 dart2js: true 
-framework: bloodless
+framework: redstone.dart
 
 handlers:
 - url: /hello
