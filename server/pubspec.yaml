@@ -1,4 +1,4 @@
-name: HelloWorldVane
+name: HelloWorldRedstone
 description: A sample web application
 dependencies:
   redstone: '>=0.5.0 <1.0.0'

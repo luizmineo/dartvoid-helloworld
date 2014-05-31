@@ -1,4 +1,4 @@
-name: HelloWorldVane
+name: HelloWorldRedstone
 description: A sample web application
 dependencies:
   browser: any
